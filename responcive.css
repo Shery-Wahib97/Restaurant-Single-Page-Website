@@ -1,0 +1,350 @@
+@media(max-width : 992px){
+    /* Start Navbar--------------------------------------------------------- */
+    .navbar .logo {
+        font-size: 20px;
+    }
+    .navbar .logo h1 {
+        margin-left: 10px;
+    }
+    .navbar .logo .fa-utensils {
+        font-size: 40px;
+    }
+    .tabs ul li a {
+        font-size: 15px;
+    }
+    /* Close Navbar-------------------------------------------------------- */
+
+    /* Start Section 1-------------------------------------------------------- */
+    .show-case .content .logo {
+        font-size: 20px;
+    }
+    .show-case .content .logo .fa-utensils {
+        font-size: 40px;
+    }
+    .show-case .content .logo h1 {
+        margin-left: 10px;
+    }
+    .show-case .content h2 {
+        font-size: 35px;
+    }
+    .show-case .content h3 {
+        font-size: 15px;
+    }
+    /* Close  Section 1-------------------------------------------------------- */
+
+    /* Start  Special-Offers-------------------------------------------------------- */
+    .content-for-imgs {
+        padding-left: 1rem;
+    }
+    .content-for-imgs h4 {
+        font-size: 1.2rem;
+    }
+    .content-for-imgs p {
+        line-height: 1.5;
+    }
+    .img-content .price {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .over-img h2 a {
+        font-size: 1.3rem;
+    }
+    /* Close  Special-Offers-------------------------------------------------------- */
+
+    /* Start Reservation ------------------------------------------------ */
+    #reservation-tb1 .form-data {
+        width: 70%;
+    }
+    /* Close Reservation------------------------------------------------ */
+    
+    /* Start Food Lover------------------------------------------------ */
+    .img-cards p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .img-cards .price {
+        font-size: 17px;
+    }
+    /* Close Food Lover------------------------------------------------ */
+    
+    /* Start Customer Feedback--------------------------------------- */
+    .customer-cards-container {
+    width: 100%;
+    }
+    .customer-card p {
+        margin: -7% 0 15px auto;
+    }
+    /* Close Customer Feedback--------------------------------------- */
+
+    /* Start Static Counters-------------------------------------- */
+    .counters {
+        padding-bottom: 40px;
+        gap: 30px;
+    }
+    .counter h2 {
+        font-size: 20px;
+    }
+    /* Close Static Counters-------------------------------------- */
+}
+
+@media(max-width : 768px) {
+    .container-s {
+            padding: 50px !important;
+        }
+    /* Start Navbar--------------------------------------------------------- */
+    .navbar .container {
+        padding: 0 50px;
+    }
+    .tabs .icon,.close-icon {
+        display: block;
+        z-index: 111111;
+    }
+    .tabs ul {
+        flex-direction: column;
+        position: fixed;
+        min-width: 100%;
+        min-height: 60vh;
+        top: 0;
+        right: 100%;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        transition: all 1s ease-out;
+        
+    }
+    .tabs ul.active {
+        right: 0;
+    }
+    .tabs .icon .active {
+        display: none;
+    }
+    .tabs ul li {
+        padding: 5px 20px;
+        position: relative;
+        border-bottom: 2px solid var(--secound-color);
+        width: 100%;
+        text-align: center;
+    }
+    .tabs ul li:hover a{
+        background-color: var(--btn-bg-color);
+        color: var(--main-color);
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 10%;
+        border-radius: 50%;
+    }
+    /* Close Navbar-------------------------------------------------------- */
+    
+    /* Start  Special-Offers-------------------------------------------------------- */
+    .sp-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .right-side-content img {
+        margin-top: 0;
+    }
+    .img-right-side .over-img {
+        transform: translate(-50%, -60%);
+    }
+    /* Close  Special-Offers-------------------------------------------------------- */
+
+    /* Start Reservation ------------------------------------------------ */
+    #reservation-tb1 .form-data {
+        width: 100%;
+    }
+    /* Close Reservation------------------------------------------------ */
+    
+    /* Start Food Lover------------------------------------------------ */
+    .btn-cat {
+        margin: 5px;
+    }
+    .menu-items-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-cards img {
+        margin: 15px auto;
+    }
+    .img-cards p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .img-cards .price {
+        font-size: 20px;
+    }
+    /* Close Food Lover------------------------------------------------ */
+    
+    /* Start Customer Feedback--------------------------------------- */
+    .customer-card {
+        margin: 70px 0;
+    }
+    .customer-card img {
+        margin-top: -65px;
+    }
+    .customer-card  p {
+        margin-top: -20px;
+    }
+    /* Close Customer Feedback--------------------------------------- */
+
+    /* Start Static Counters-------------------------------------- */
+    .counters {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    /* Close Static Counters-------------------------------------- */
+}
+
+@media(max-width : 576px){
+    .container-s {
+        padding: 30px 20px !important;
+    }
+    /* Start Navbar--------------------------------------------------------- */
+    .navbar .container {
+        padding: 0 20px;
+    }
+    .navbar .logo {
+        font-size: 15px;
+    }
+    .navbar .logo h1 {
+        margin-left: 5px;
+    }
+    .navbar .logo .fa-utensils {
+        font-size: 30px;
+    }
+    /* Close Navbar-------------------------------------------------------- */
+    
+    /* Start  Section 1-------------------------------------------------------- */
+    .show-case .content .logo {
+        font-size: 20px;
+    }
+    .show-case .content .logo .fa-utensils {
+        font-size: 35px;
+    }
+    .show-case .content .logo h1 {
+        margin-left: 5px;
+    }
+    .show-case .content h2 {
+        font-size: 25px;
+        margin: 15px;
+    }
+    .show-case .content h3 {
+        font-size: 15px;
+    }
+    /* Close  Section 1-------------------------------------------------------- */
+    
+    /* Start  Special-Offers-------------------------------------------------------- */
+    .headings .sec3 {
+        text-align: center;
+    }
+    .img-content {
+        flex-direction: column;
+    }
+    .imgs {
+        flex-direction: column;
+        text-align: center;
+    }
+    .imgs img {
+        margin: 1rem;
+        width: 75%;
+    }
+    .img-content .price {
+        margin-top: 1rem;
+    }
+    .img-right-side .over-img {
+        transform: translate(-50%, -53%);
+        padding: 0px 13px 4.5px;
+        top: 50%;
+    }
+    .over-img h2 a {
+        font-size: 1rem;
+    }
+    /* Close  Special-Offers-------------------------------------------------------- */
+
+    /* Start Reservation ------------------------------------------------ */
+    #reservation-tb1 .form-data form input {
+        width: 100%;
+    }
+    /* Close Reservation------------------------------------------------ */
+
+    /* Start Food Lover------------------------------------------------ */
+    .menu-items-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+    .img-cards p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .img-cards .price {
+        font-size: 17px;
+    }
+    /* Close Food Lover------------------------------------------------ */
+    
+    /* Start Customer Feedback--------------------------------------- */
+    .customer-card {
+        margin: 90px 0;
+    }
+    .customer-card img {
+        width: 30%;
+        margin-top: -18%;
+        margin-left: -25px;
+    }
+    .customer-card .scnd {
+        width: 26%;
+    }
+    .customer-card p {
+        margin-top: -45px;
+    }
+    /* Close Customer Feedback--------------------------------------- */
+}
+
+@media(max-width : 425px){
+    .container-s {
+            padding: 30px 10px !important;
+        }
+
+    /* Start Deal Today------------------------------------------------ */
+    #deal-today .card-content {
+        font-size: 15px;
+        margin: auto;
+    }
+    .cards img {
+        width: 70%;
+    }
+    #deal-today .card-content h4,
+    #deal-today .card-content .price {
+        font-size: 30px;
+    }
+    /* Close Deal Today------------------------------------------------ */
+    
+    /* Start Food Lover------------------------------------------------ */
+    .menu-items-container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    /* Close Food Lover------------------------------------------------ */
+
+    /* Start Customer Feedback--------------------------------------- */
+    .customer-card {
+        display: block;
+        text-align: center;
+    }
+    .customer-card img {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .customer-card .scnd {
+        width: 30%;
+    }
+    .customer-card p {
+        margin-top: 0;
+        width: 100%;
+        padding: 0;
+    }
+    .customer-card .name{
+        text-align: center;
+    }
+    /* Close Customer Feedback--------------------------------------- */
+
+    /* Start Static Counters-------------------------------------- */
+    .counters {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Close Static Counters-------------------------------------- */
+}
